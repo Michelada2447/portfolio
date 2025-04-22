@@ -7,8 +7,6 @@
  *  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
 */
 
-@import '/src/styles/variables.css';
-
 .card {
   display: flex;
   place-content: center;
@@ -52,4 +50,12 @@
 
 .spanImg {
   margin: 0 15px;
+}
+
+.transition {
+  transition: all .3 ease 0;
+}
+
+.transition:hover {
+  transform: scale(1.1);
 }
