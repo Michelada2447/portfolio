@@ -1,4 +1,14 @@
-@import '/src/styles/variables.css';
+:root {
+  --bg-color-dark: #0d171f;
+  --text-color-dark: #f7f9fa;
+  --primary-color-dark: #69b6ff;
+  --bg-primary-botton: #69b9ff1a;
+
+  --text-color-light: invert(var(--text-color-dark));
+  --bg-color-light: invert(var(--bg-color-dark));
+  --primary-color-light: invert(var(--primary-color-dark));
+  --bg-primary-botton-light: invert(var(--bg-primary-botton));
+}
 
 * {
   box-sizing: border-box;
@@ -14,7 +24,9 @@ body {
   line-height: 1.5;
   font-weight: 400;
   margin: 0 auto;
-  width: 70%;
+
+  min-height: 100vh;
+  min-width: 100vh;
 }
 
 button {

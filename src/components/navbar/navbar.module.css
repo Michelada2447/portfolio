@@ -8,8 +8,6 @@
  * ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
 */
 
-@import '/src/styles/variables.css';
-
 .header {
   display: flex;
   justify-content: space-between;

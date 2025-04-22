@@ -21,10 +21,10 @@ export function Card() {
           1 año de experiencia como desarrollador Full Stack
         </p>
         <p className={`${styles.cardIcons}`}>
-          <img width={'35'} height={'35'} src='/public/assets/icons/curriculum-resume.svg' alt='Curriculum' className={`${styles.spanImg}`} />
-          <img width={'35'} height={'35'} src='/public/assets/icons/email-outline.svg' alt='Mail' className={`${styles.spanImg}`} />
-          <img width={'35'} height={'35'} src='/public/assets/icons/linkedin-outline.svg' alt='Linkendi' className={`${styles.spanImg}`} />
-          <img width={'35'} height={'35'} src='/public/assets/icons/github-outline.svg' alt='GitHub' className={`${styles.spanImg}`} />
+          <img width={'35'} height={'35'} src='/public/assets/icons/curriculum-resume.svg' alt='Curriculum' className={`${styles.spanImg} ${styles.transition}`} />
+          <img width={'35'} height={'35'} src='/public/assets/icons/email-outline.svg' alt='Mail' className={`${styles.spanImg} ${styles.transition}`} />
+          <img width={'35'} height={'35'} src='/public/assets/icons/linkedin-outline.svg' alt='Linkendi' className={`${styles.spanImg} ${styles.transition}`} />
+          <img width={'35'} height={'35'} src='/public/assets/icons/github-outline.svg' alt='GitHub' className={`${styles.spanImg} ${styles.transition}`} />
         </p>
       </div>
     </section>
