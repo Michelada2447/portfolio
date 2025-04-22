@@ -1,0 +1,55 @@
+/*
+ *  ██████╗ █████╗ ██████╗ ██████╗ 
+ * ██╔════╝██╔══██╗██╔══██╗██╔══██╗
+ * ██║     ███████║██████╔╝██║  ██║
+ * ██║     ██╔══██║██╔══██╗██║  ██║
+ * ╚██████╗██║  ██║██║  ██║██████╔╝
+ *  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
+*/
+
+@import '/src/styles/variables.css';
+
+.card {
+  display: flex;
+  place-content: center;
+  margin: 80px 0;
+}
+
+.cardDiv {
+  margin: 0 60px;
+}
+
+.cardImg {
+  border-radius: 50%;
+  box-shadow: 0 0 20px var(--primary-color-dark);
+}
+
+.cardInfo {
+  padding: 60px 30px;
+}
+
+.infoTitle {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.infoUsername {
+  border: 0 solid;
+  background-color: var(--bg-primary-botton);
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: var(--primary-color-dark);
+  font-weight: bold;
+}
+
+.cardSubtitle {
+  margin-bottom: 15px;
+  font-size: 1.15rem;
+}
+
+.cardIcons {
+  filter: invert(1);
+}
+
+.spanImg {
+  margin: 0 15px;
+}
